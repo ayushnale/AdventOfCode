@@ -3,12 +3,8 @@
 
 int main() {
 
-    // bool op;
-
-    // std::cout << "Test [1] | Input [0] : ";
-    // std::cin >> op;
-
-    std::string filename ; //= ( op ) ? "TestInput.txt":"input.txt";
+    
+    std::string filename ;
 
     std::cout << "File Name: ";
     std::cin >> filename;
@@ -18,7 +14,7 @@ int main() {
         std::cerr << "File does not exist !" << std::endl;
         return 1;
     }
-    // Reading methods go here
+   
     char ch;
     int floor = 0;
     
